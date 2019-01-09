@@ -2,6 +2,7 @@
  *Guia de funciones nuevas en ECMA2015
  * si bien a lo largo de este repositorio se hacen varias menciones a ECMA2015
  * aqui se intentan utilizar y explicar las funcionalidades mas importantes
+ * @see https://babeljs.io/docs/en/learn/
  */
 
 /*Arrows and Lexical This
