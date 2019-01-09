@@ -23,6 +23,9 @@ Lógicamente, al estar usando [TS](https://www.typescriptlang.org/) ya se tiene 
 Prettier es un formateador de código basado en opiniones que esta siendo muy utilizado en el mercado en este momento. Soporte muchas herramientas y lenguajes de programación como JS, HTML, CSS, Angular, Vue, etc.
 Su fortaleza está en que formatea el código en el momento de guardar el archivo, por lo que resulta muy útil para el programador y que esta integrado de manera nativa a WebStorm y mediante plugins a prácticamente todas las IDES para JS en el mercado. Es fácilmente configurable e instalable desde su [sitio oficial] (https://prettier.io/).
 
+## ECMA2015
+En este directorio se encuentran repasadas las principales funcionalidades agregadas en 2015, con el objetivo de buscar un lenguaje mas claro y mejorar la calidad del código generado en JS, muy importantes si se piensa en ir hacia TS en algún momento. 
+
 ## Node
 En este directorio existen scripts pensados para ser ejecutados con node, y código que busca explicar el funcionamiento de node y como aprovecharlo al máximo a la hora de desarrollar.
 

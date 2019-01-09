@@ -1,5 +1,7 @@
 /**
-Practica nodejs**/
+*Practica nodejs y express
+* Guia de uso de nodejs para construir un pequeño servidor web
+**/
 
 //Para un ruteo sencillo inicial
 //inicializar la app

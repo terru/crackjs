@@ -1,4 +1,7 @@
-//Practica de expresiones regulares
+/**
+ * Practica de expresiones regulares y funciones necesarias en js
+ * @use ejecutar usando node o consola los distintos fragmentos de codigo
+ */
 
 //formas de inicializacion
 var re = /ar/;
@@ -8,7 +11,7 @@ re.exec("car");
 re.exec("cab");
 
 //letras directas
-var re1= /[AEIOU]/;
+var re1 = /[AEIOU]/;
 re1.exec("Oval"); // returns ["O", index: 0, input: "Oval"]
 re1.exec("2456"); // null
 
