@@ -50,16 +50,16 @@ Para este caso poner código sería incluir los comandos necesarios para ejecuta
 
 #### Recomendados
 
-* ESlint
+* *ESlint*  
 Muy utilizado entre los programadores js, uno de los que más aceptación tiene debido a su facilidad de aplicación y sus plugins desarrollados para las ides más importantes. Su instalación y comandos son sencillos, el [sitio oficial](https://eslint.org/) es muy completo y tiene toda la información necesaria.
 
-* TypeScript
+* *TypeScript*  
 Lógicamente, al estar usando [TS](https://www.typescriptlang.org/) ya se tiene un compilador y un analizador de código estático, por lo que aunque es posible construir código que podría mejorarse, el código que funciona ya de por sí debería ser de mejor calidad. No obstante, existen herramientas lint también para TypeScript, algunas de las mencionadas en esta lista también ofrecen soporte para TS.
 
-* Flow
+* *Flow*    
  Flow es una analizador estático de js que puede realizar análisis sintáctico y de la calidad de código a medida que  lo vamos construyendo y mediante notations, en el momento de redactar esta guía, parece lo más novedoso y muy práctico debido a la facultad de mirar el código en tiempo real. Ni la instalación ni la utilización son complejos, se puede utilizar siguiendo los lineamientos del [sitio](https://www.typescriptlang.org/).
 
-* Prettier
+* *Prettier*    
 Prettier es un formateador de código basado en opiniones que esta siendo muy utilizado en el mercado en este momento. Soporte muchas herramientas y lenguajes de programación como JS, HTML, CSS, Angular, Vue, etc.
 Su fortaleza está en que formatea el código en el momento de guardar el archivo, por lo que resulta muy útil para el programador y que esta integrado de manera nativa a WebStorm y mediante plugins a prácticamente todas las IDES para JS en el mercado. Es fácilmente configurable e instalable desde su [sitio oficial] (https://prettier.io/).
 
