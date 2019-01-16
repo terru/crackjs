@@ -4,16 +4,21 @@ Lab para practicar diversos conceptos de js y crackear las entrevistas
 ## Malas practicas
 Aqui se listan algunas malas practicas para consultar cuando sea necesario, en los distintos directorios se encuentran las justificaciones de por qué lo son. 
 * Not knowing incorrect (and the very few correct) uses of eval
-<addr>
+
+```javascript
 eval("obj."+prop);
-</addr>
+```
+
 * Using with statements
 * Using parseInt(str, base) without specifying the base argument.
 * Using this in timer/callback functions.
 * Using eval-like expressions in timers
-<addr>
+
+
+ ```javascript
 setTimeout("someFunc(myScopedVarWhoops)");
-</addr>
+```
+
 * Thinking jQuery is the name of the language you're coding
 * Performing simple JavaScript tasks using a framework -- $(1).plus(1) anyone? ;-)
 * Using continue without incrementing or adjusting the conditional variable.
@@ -24,10 +29,11 @@ setTimeout("someFunc(myScopedVarWhoops)");
 * Using try...catch...finally statements to catch errors instead of using if statements to check variables.
 * Using { 0: "Foo", 1:"Bar", 2:"Foobar" } instead of [ "Foo", "Bar", "Foobar" ]
 * Using parseInt() on user input
-<addr> 
+
+```javascript
 parseInt("1,000") // -> 1, wrong!
 +"1,000" // -> NaN, correct!
-</addr>
+```
 
 * Not using strict equality (===) operators whenever possible
 * Setting event handlers to the return value of a function instead of a reference to said function
