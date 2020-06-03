@@ -1,0 +1,11 @@
+{
+  "name": "terru",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "nodejs.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "terru",
+  "license": "ISC"
+}

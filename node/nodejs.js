@@ -34,12 +34,3 @@ console.log("APP running in port: "  + port);
 //array functions
 
 
-const agent = {
-  name = "John doe";
-  algo: function () {
-    console.log(algo);
-  }
-}
-
-const agent= agent();
-agent.algo();
